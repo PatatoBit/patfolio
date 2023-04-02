@@ -9,7 +9,7 @@
 		gsap.to('.square', {
 			scrollTrigger: {
 				trigger: '.square',
-				markers: true,
+				// markers: true,
 				scrub: 3,
 				// pin: true,
 				start: 'top center',
