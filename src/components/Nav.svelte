@@ -1,4 +1,4 @@
-<nav>
+<nav class="bg-blur">
 	<a
 		href="/
 	"
@@ -22,6 +22,7 @@
 		align-items: center;
 		gap: 2em;
 
+		backdrop-filter: blur(24px);
 		padding: 1rem;
 
 		border: solid 2px #414141;
@@ -29,15 +30,13 @@
 		border-left: 0;
 		padding: 0.5em 1em 0.5em 1em;
 
-		backdrop-filter: blur(24px);
-
 		a {
 			text-decoration: none;
 			color: black;
 		}
 
 		ul {
-			backdrop-filter: blur(24px);
+			/* backdrop-filter: blur(24px); */
 
 			list-style-type: none;
 			display: flex;

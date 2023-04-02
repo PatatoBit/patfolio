@@ -56,3 +56,9 @@ section,
 	display: flex;
 	flex-direction: row;
 }
+
+.bg-blur {
+	* {
+		backdrop-filter: blur(24px);
+	}
+}

@@ -5,7 +5,7 @@
 <main>
 	<div class="container">
 		<div class="side">
-			<h1 class="typewriter">>~/Patato</h1>
+			<h1>>~/Patato</h1>
 			<p>Code, Design, Art</p>
 		</div>
 
@@ -22,32 +22,10 @@
 </section>
 
 <style lang="scss">
-	.typewriter {
-		overflow: hidden; /* Ensures the content is not revealed until the animation */
-		border-right: 0.15em solid orange; /* The typwriter cursor */
-		white-space: nowrap; /* Keeps the content on a single line */
-		animation: typing 1s steps(8, end), blink-caret 0.6s step-end infinite;
-	}
-
-	/* The typing effect */
-	@keyframes typing {
-		from {
-			width: 0;
-		}
-		to {
-			width: 100%;
-		}
-	}
-
-	/* The typewriter cursor effect */
-	@keyframes blink-caret {
-		from,
-		to {
-			border-color: transparent;
-		}
-		50% {
-			border-color: orange;
-		}
+	main {
+		background-image: url('/pattern.svg');
+		background-repeat: repeat;
+		border-bottom: solid 2px #414141;
 	}
 
 	.container {
