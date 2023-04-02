@@ -14,7 +14,7 @@
 		</div>
 	</div>
 
-	<Square />
+	<!-- <Square /> -->
 </main>
 
 <section>
@@ -23,12 +23,12 @@
 
 <style lang="scss">
 	.container {
-		gap: 1rem;
+		gap: 5rem;
 		flex-wrap: wrap-reverse;
 	}
 
 	.side {
-		min-width: 30rem;
+		min-width: 20rem;
 		flex: 1 1 0%;
 		display: flex;
 		flex-direction: column;
