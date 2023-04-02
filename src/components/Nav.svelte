@@ -29,12 +29,16 @@
 		border-left: 0;
 		padding: 0.5em 1em 0.5em 1em;
 
+		backdrop-filter: blur(24px);
+
 		a {
 			text-decoration: none;
 			color: black;
 		}
 
 		ul {
+			backdrop-filter: blur(24px);
+
 			list-style-type: none;
 			display: flex;
 			gap: 2em;
