@@ -1,3 +1,7 @@
+<script>
+	import Square from '../components/Square.svelte';
+</script>
+
 <main>
 	<div class="container">
 		<div class="side">
@@ -9,6 +13,8 @@
 			<img src="https://baconmockup.com/300/300" alt="Bacon Mockup" />
 		</div>
 	</div>
+
+	<Square />
 </main>
 
 <section>
