@@ -3,7 +3,7 @@
 		href="/
 	"
 	>
-		<h3>C:/patato</h3>
+		<h4>C:/patato</h4>
 	</a>
 	<ul>
 		<li class="mono"><a href="/">./</a></li>
@@ -24,6 +24,16 @@
 
 		padding: 1rem;
 
+		border: solid 2px #414141;
+		border-top: 0;
+		border-left: 0;
+		padding: 0.5em 1em 0.5em 1em;
+
+		a {
+			text-decoration: none;
+			color: black;
+		}
+
 		ul {
 			list-style-type: none;
 			display: flex;
@@ -36,10 +46,6 @@
 			a {
 				text-decoration: none;
 				color: #000;
-				border: solid 3px #414141;
-				background-color: #eeeeee;
-				padding: 0.5em 1em 0.5em 1em;
-				border-radius: 0.25rem;
 			}
 		}
 	}
