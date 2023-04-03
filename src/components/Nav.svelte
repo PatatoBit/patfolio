@@ -22,7 +22,6 @@
 		align-items: center;
 		gap: 2em;
 
-		backdrop-filter: blur(24px);
 		padding: 1rem;
 
 		border: solid 2px #414141;
